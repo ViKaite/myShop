@@ -2,7 +2,6 @@ const productCards = document.querySelector(".productCards")
 const invent = document.querySelector(".invent")
 const moneyLimit = document.querySelector(".moneyLimit")
 const weightLimit = document.querySelector(".weightLimit")
-const cards = document.querySelectorAll(".card") as HTMLElement
 const modalBtn = document.querySelector(".modalButton")
 
 
@@ -147,7 +146,7 @@ window.onclick = function(event) {
 }
 
 modalBtn.onclick = () => {
-    console.log("kdkkdk")
+
     const inputs = document.querySelectorAll("input")
 
     const item = {
@@ -159,7 +158,7 @@ modalBtn.onclick = () => {
     }
     products.push(item)
 createItems()
-    console.log(item)
+    c
 
 }
 
