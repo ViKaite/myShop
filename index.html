@@ -8,5 +8,55 @@
 </head>
 <body>
 
+<div class="container flex" >
+<div class="myShop center">
+<div class="box">
+    <div class="flex j-btw">
+        <button>FOOD</button>
+        <button>ELECTRONICS</button>
+        <button>FURNITURE</button>
+        <button>SHOW ALL</button>
+    </div>
+
+
+    <div class="productCards flex"></div>
+
+
+</div>
+    <button id="myBtn">Open Modal</button>
+</div>
+
+<div class="box flex column">
+    <div class="flex">
+    <div class="limit moneyLimit flex">Money: 200</div>
+    <div class="limit weightLimit flex">Weight Limit: 50</div>
+    </div>
+    <div class="invent flex"></div>
+</div>
+
+
+       <div id="myModal" class="modal">
+
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <label for="photo">Photo</label>
+            <input type="text" id="photo" ><br><br>
+            <label for="name">Name</label>
+            <input type="text" id="name" ><br><br>
+            <label for="price">Price</label>
+            <input type="text" id="price" ><br><br>
+            <label for="weight">Weight</label>
+            <input type="text" id="weight"><br><br>
+            <label for="category">Category</label>
+            <input type="text" id="category"><br><br>
+            <input type="submit" value="Submit" class="modalButton">
+
+        </div>
+
+    </div>
+</div>
+
+
 </body>
 </html>
